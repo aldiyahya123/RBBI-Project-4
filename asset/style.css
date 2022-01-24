@@ -110,6 +110,12 @@ body {
     font-style: italic;
 }
 
+.hubungi-kami {
+    position: fixed;
+    right: 2%;
+    bottom: 0;
+    width: 12vw;
+}
 
 footer {
     margin-top: 3%;
@@ -127,6 +133,10 @@ footer {
 
     .logo {
         width: 83vw;
+    }
+
+    .hubungi-kami {
+        width: 3    0vw;
     }
 
 }
