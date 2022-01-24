@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #06080D;
+}
+
+.logo {
+    width: 20vw;
+}
+
+
+.navbar-container {
+    background-color: black;
+    box-shadow: 0px -7px 74px rgba(255, 255, 255, 0.45);
+}
+
+.btn-custom {
+    color: white !important;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.btn-daftar {
+    background: linear-gradient(180deg, #E85957 0%, #AE1B19 100%);
+    box-shadow: 0px 0px 24px #E15250;
+    border: 1px solid transparent;
+    animation: blink .3s ease infinite alternate;
+}
+
+.btn-daftar-navbar {
+    background: linear-gradient(180deg, #E85957 0%, #AE1B19 100%);
+    box-shadow: 0px 0px 24px #E15250;
+    border: 1px solid transparent;
+    animation: blink .3s ease infinite alternate;
+    font-size: 19px;
+}
+
+.btn-masuk {
+    background: linear-gradient(180deg, #D5BF6B 0%, #9F751A 100%);
+    filter: drop-shadow(0px 0px 23px #CEB661);
+    animation: blink .3s ease 1s infinite alternate;
+}
+
+.main-text-title {
+    color: white;
+    border-bottom: 3px solid white;
+    font-weight: bold;
+}
+
+.text-title {
+    color: white;
+}
+
+.run-text {
+    border-top: 1px solid rgba(255, 255, 255, 0.541);
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: .8;
+    }
+}
+
+.btn-wa {
+    background: linear-gradient(180deg, #6DD56B 0%, #21911F 100%);
+}
+
+.btn-live {
+    background: linear-gradient(180deg, #F5F5F5 0%, #5B5B5B 100%);
+}
+
+.dunia777 {
+    color: white;
+    background: linear-gradient(180deg, #D82C16 0%, #8C1412 100%);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.hati {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.mega-jackpot {
+    text-shadow: 0px 2px 6px #C9AF5A;
+    background: -webkit-linear-gradient(rgba(229, 214, 132, 1), rgba(156, 112, 21, 1), rgba(229, 214, 132, 1), rgba(156, 112, 21, 1), rgba(229, 214, 132, 1),
+            rgba(156, 112, 21, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+footer {
+    margin-top: 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mega-jackpot {
+        font-size: 10vw;
+    }
+
+    .hati {
+        font-size: 7vw;
+    }
+
+    .logo {
+        width: 83vw;
+    }
+
+}
